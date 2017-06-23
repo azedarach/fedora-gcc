@@ -1,5 +1,5 @@
 FROM fedora:25
-MAINTAINER Dylan Harries <dylan.harries@adelaide.edu.au>
+LABEL maintainer "dylan.harries@adelaide.edu.au"
 
 RUN dnf update -y --setopt=deltarpm=false \
    && dnf install --setopt=deltarpm=false -y \
