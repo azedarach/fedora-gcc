@@ -1,4 +1,4 @@
-FROM fedora:25
+FROM fedora:latest
 LABEL maintainer "dylan.harries@adelaide.edu.au"
 
 RUN dnf update -y --setopt=deltarpm=false \
